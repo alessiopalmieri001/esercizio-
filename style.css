@@ -1,0 +1,64 @@
+body{
+    
+background-image: url(background.jpg);
+background-size:cover ;
+
+
+}
+
+#trasparente{
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 100px;
+    border-radius: 40px;
+    margin-left:500px;
+    margin-right: 500px;
+    margin-top: 80px;
+/* parte principale */
+}
+header, nav{
+   text-align: center;
+   }
+.navigazione{
+    background-color:  #00dd00;
+    padding: 20px; 
+}
+/* titolo prinicipale */
+h1{
+    color:  #00dd00;
+    
+}
+/* parte centrale */
+main{
+    text-align: left;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+    line-height: 2;
+}
+/* monopattini */
+h2{
+    color:white;
+    font-size: 40px;
+}
+/* barre di caricamento */
+.areagialla{
+    background-color: yellow;
+    margin-right: 800px;
+    
+}
+.areaverde{
+    background-color:green;
+    margin-right: 600px;
+}
+.arearossa{
+    background-color: red;
+    margin-right: 1000px;
+}
+.areagialla, .arearossa, .areaverde{
+    border-radius: 5px;
+    height: 25px;
+}
+/* simbolo  */
+.indirizzo:before{
+    content: '\21A6';
+  }
